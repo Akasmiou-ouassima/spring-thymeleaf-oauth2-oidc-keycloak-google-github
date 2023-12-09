@@ -6,6 +6,7 @@
 ![img_2.png](img_2.png)
 
 ## création d'API
-![Capture d’écran 2023-12-09 200243.png](..%2FCapture%20d%92%E9cran%202023-12-09%20200243.png)
+![img_4.png](img_4.png)
 
-## activer les api et les services
+## Cliquer sur identifiants
+![img_5.png](img_5.png)
