@@ -28,7 +28,7 @@
 ## Client OAuth créé
 ![img_11.png](img_11.png)
 
-![img_13.png](img_13.png =250x)
+![img_13.png](img_13.png=250x)
 
 ## Modifier l'url en mettant l'url de redirection de l'application
 ![img_12.png](img_12.png)
