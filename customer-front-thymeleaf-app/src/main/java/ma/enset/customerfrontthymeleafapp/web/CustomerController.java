@@ -3,9 +3,11 @@ package ma.enset.customerfrontthymeleafapp.web;
 
 import ma.enset.customerfrontthymeleafapp.entities.Customer;
 import ma.enset.customerfrontthymeleafapp.repository.CustomerRepository;
+import org.apache.tomcat.util.net.openssl.ciphers.Authentication;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.List;
 
@@ -26,4 +28,16 @@ public class CustomerController {
     private String products() {
         return "products";
     }
+
+    @GetMapping("/auth")
+    @ResponseBody
+    public Authentication authentication(Authentication authentication) {
+        return authentication;
+    }
+
+    @GetMapping("/index")
+    private String index() {
+        return "index";
+    }
+
 }

@@ -38,7 +38,7 @@
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item">Login</a></li>
             <li>
-              <form  method="post">
+              <form th:action="@{/logout}" method="post">
                 <button class="btn btn-success">Logout</button>
               </form>
             </li>
