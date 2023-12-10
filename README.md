@@ -199,3 +199,81 @@ spring.security.oauth2.client.provider.github.user-name-attribute=login
 <p align="center">
   <img src="captures/img_38.png" width="500">
 </p>
+
+**application front channel c'est une application basée sur les redirections**
+
+## On ajoute ces configurations dans le fichier application.properties
+
+```bash
+spring.security.oauth2.client.registration.keycloak.client-name=keycloak
+spring.security.oauth2.client.registration.keycloak.client-id=oauth2-customer-client
+spring.security.oauth2.client.registration.keycloak.client-secret=trpKl5a1fcOAZg19OUCeCPLBI87yjpDD
+spring.security.oauth2.client.registration.keycloak.scope=openid,profile,email,offline_access
+spring.security.oauth2.client.registration.keycloak.authorization-grant-type=authorization_code
+spring.security.oauth2.client.registration.keycloak.redirect-uri=http://localhost:8083/login/oauth2/code/oauth2-customer-client
+spring.security.oauth2.client.provider.keycloak.issuer-uri=http://localhost:8080/realms/oauth2-realm
+spring.security.oauth2.client.provider.keycloak.user-name-attribute=preferred_username
+```
+## Maintenant on va accéder à l'application par keycloak
+<p align="center">
+  <img src="captures/img_39.png" width="500">
+</p>
+
+## On va s'authentifier par keycloak
+<p align="center">
+  <img src="captures/img_40.png" width="500">
+</p>
+
+<p>
+  <img src="captures/img_41.png" width="500">
+</p>
+
+## On peut activer les options "User Registration" et "Forgot Password" pour que l'utilisateur puisse s'inscrire et récupérer son mot de passe en cas d'oubli et "Remember Me" pour que l'utilisateur puisse rester connecté et "email as username" pour que l'utilisateur puisse s'authentifier par email
+<p align="center">
+  <img src="captures/img_42.png" width="500">
+</p>
+
+<p align="center">
+  <img src="captures/img_43.png" width="500">
+</p>
+
+## On registre un nouveau utilisateur
+<p align="center">
+  <img src="captures/img_44.png" width="500">
+</p>
+
+<p align="center">
+  <img src="captures/img_45.png" width="500">
+</p>
+
+## On peut ajouter des informations supplémentaires comme l'adresse, le numéro de téléphone, le nom, le prénom, etc...
+<p align="center">
+  <img src="captures/img_46.png" width="500">
+</p>
+<p align="center">
+  <img src="captures/img_47.png" width="500">
+</p>
+
+## On ajoute le role realm
+<p align="center">
+  <img src="captures/img_48.png" width="500">
+</p>
+
+## On active l'option "Add to ID token" pour que le role soit ajouté au token d'authentification et on ajoute le role realm à l'utilisateur
+<p align="center">
+  <img src="captures/img_49.png" width="500">
+</p>
+
+## Le role ajouté par défaut à l'utilisateur est "USER" 
+<p align="center">
+  <img src="captures/img_50.png" width="500">
+</p>
+
+<p align="center">
+  <img src="captures/img_51.png" width="500">
+</p>
+
+## On peut ajouter les politiques de sécurité 
+<p align="center">
+  <img src="captures/img_52.png" width="500">
+</p>
