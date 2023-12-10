@@ -1,6 +1,6 @@
 ## Les dépendances
 <p align="center">
-  <img src="captures/img.png" width="200">
+  <img src="captures/img.png" width="300">
 </p>
 
 ## Diagramme de séquence OAuth2
@@ -61,9 +61,9 @@
 
 ## Ajouter les identifiants dans le fichier de configuration
 ```bash
-spring.security.oauth2.client.registration.github.clientId=88195d0ca4e12ef9a211 
-spring.security.oauth2.client.registration.github.client-secret=2706673800b8811ff728a4a4d4a61de083d22e28
-spring.security.oauth2.client.provider.github.user-name-attribute=login
+spring.security.oauth2.client.registration.google.clientId=294778775600-pi63tt3tep6tn58kanh7jeo9ovlk3j2r.apps.googleusercontent.com
+spring.security.oauth2.client.registration.google.client-secret=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
+spring.security.oauth2.client.provider.google.user-name-attribute=email
 ```
 
 ## Après l'authentification par Google, on peut accéder à l'application
@@ -71,7 +71,14 @@ spring.security.oauth2.client.provider.github.user-name-attribute=login
   <img src="captures/img_19.png" width="500">
 </p>
 
-## Pour l'authentification par github accéder à Developer Settings
+## Pour l'authentification par github
+## Ajouter les identifiants dans le fichier de configuration
+```bash
+spring.security.oauth2.client.registration.github.clientId=88195d0ca4e12ef9a211 
+spring.security.oauth2.client.registration.github.client-secret=2706673800b8811ff728a4a4d4a61de083d22e28
+spring.security.oauth2.client.provider.github.user-name-attribute=login
+```
+##  Accéder à Developer Settings de github
 <p align="center">
   <img src="captures/img_15.png" width="500">
 </p>
