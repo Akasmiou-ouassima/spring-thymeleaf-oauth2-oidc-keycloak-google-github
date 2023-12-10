@@ -280,17 +280,17 @@ spring.security.oauth2.client.provider.keycloak.user-name-attribute=preferred_us
 
 ## Maintenant il reste à créer un microservice pour les produits et le communiquer avec le microservice customer
 <p align="center">
-  <img src="captures/img_53.png" width="500">
+  <img src="captures/img_53.png" width="200">
 </p>
 
 <p align="center">
-  <img src="captures/img_54.png" width="500">
+  <img src="captures/img_54.png" >
 </p>
 
 <p align="center">
-  <img src="captures/img_55.png" width="500">
+  <img src="captures/img_55.png" >
 </p>
 
 <p align="center">
-  <img src="captures/img_56.png" width="500">
+  <img src="captures/img_56.png" >
 </p>
