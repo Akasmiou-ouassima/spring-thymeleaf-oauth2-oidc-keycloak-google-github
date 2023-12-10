@@ -50,6 +50,8 @@
 <p align="center">
   <img src="captures/img_11.png" width="500">
 </p>
+
+## Accéder à l'application
 <p align="center">
   <img src="captures/img_13.png" width="500">
 </p>
