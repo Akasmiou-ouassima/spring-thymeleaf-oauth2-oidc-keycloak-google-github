@@ -1,8 +1,8 @@
 ## Les dépendances
 ![img.png](captures/img.png)
 
-
-![img_1.png](captures/img_1.png)
+## Diagramme de séquence OAuth2
+<img src="captures/img_1.png" width="500" alt="Diagramme de séquence OAuth2">
 
 ## Création du projet
 ![img_2.png](captures/img_2.png)
