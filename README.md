@@ -113,6 +113,7 @@ spring.security.oauth2.client.provider.github.user-name-attribute=login
   <img src="captures/img_21.png" width="500">
 </p>
 
+## Ajouter l'URL d'autorisation
 <p align="center">
   <img src="captures/img_22.png" width="500">
 </p>
@@ -127,6 +128,7 @@ spring.security.oauth2.client.provider.github.user-name-attribute=login
   <img src="captures/img_23.png">
 </p>
 
+# Pour l'authentification par Keycloak
 ## Maintenant on va faire la même chose avec keycloak
 
 > On démarrer keycloak 
@@ -144,7 +146,7 @@ spring.security.oauth2.client.provider.github.user-name-attribute=login
   <img src="captures/img_27.png" width="500">
 </p>
 
-## On active l'option "Client Authentication" pour qu'on puisse authentifier par client ID et client secret
+**On active l'option "Client Authentication" pour qu'on puisse authentifier par client ID et client secret**
 <p align="center">
   <img src="captures/img_28.png" width="500">
 </p>
