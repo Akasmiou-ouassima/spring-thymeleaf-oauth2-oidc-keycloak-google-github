@@ -51,7 +51,20 @@
   <img src="captures/img_11.png" width="500">
 </p>
 
+# Pour l'authentification par Google
+## Ajouter les identifiants dans le fichier de configuration
+```bash
+spring.security.oauth2.client.registration.google.clientId=294778775600-pi63tt3tep6tn58kanh7jeo9ovlk3j2r.apps.googleusercontent.com
+spring.security.oauth2.client.registration.google.client-secret=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
+spring.security.oauth2.client.provider.google.user-name-attribute=email
+```
+
 ## Accéder à l'application
+<p align="center">
+  <img src="captures/img_19.png" width="500">
+</p>
+
+## Après l'authentification par Google on obtient Accès bloqué
 <p align="center">
   <img src="captures/img_13.png" width="500">
 </p>
@@ -61,19 +74,8 @@
   <img src="captures/img_12.png" width="500">
 </p>
 
-## Ajouter les identifiants dans le fichier de configuration
-```bash
-spring.security.oauth2.client.registration.google.clientId=294778775600-pi63tt3tep6tn58kanh7jeo9ovlk3j2r.apps.googleusercontent.com
-spring.security.oauth2.client.registration.google.client-secret=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
-spring.security.oauth2.client.provider.google.user-name-attribute=email
-```
 
-## Après l'authentification par Google, on peut accéder à l'application
-<p align="center">
-  <img src="captures/img_19.png" width="500">
-</p>
-
-## Pour l'authentification par github
+# Pour l'authentification par Github
 ## Ajouter les identifiants dans le fichier de configuration
 ```bash
 spring.security.oauth2.client.registration.github.clientId=88195d0ca4e12ef9a211 
@@ -101,7 +103,7 @@ spring.security.oauth2.client.provider.github.user-name-attribute=login
 </p>
 
 
-## Aprés l'authentification par github, on peut accéder à l'application
+## Accéder à l'application par github
 <p align="center">
   <img src="captures/img_20.png" width="500">
 </p>
