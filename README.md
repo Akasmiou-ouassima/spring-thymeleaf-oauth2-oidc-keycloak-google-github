@@ -2,7 +2,9 @@
 ![img.png](captures/img.png)
 
 ## Diagramme de séquence OAuth2
-<img src="captures/img_1.png" width="500" alt="Diagramme de séquence OAuth2">
+<p align="center">
+  <img src="captures/img_1.png" width="500" alt="Diagramme de séquence OAuth2">
+</p>
 
 ## Création du projet
 ![img_2.png](captures/img_2.png)
