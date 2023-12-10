@@ -34,7 +34,7 @@ public class SecurityConfig {
                 .csrf(Customizer.withDefaults())
                 .authorizeHttpRequests(ar->ar.requestMatchers("/","/oauth2Login/**","/webjars/**","/h2-console/**").permitAll())
                 .authorizeHttpRequests(ar->ar.anyRequest().authenticated())
-                .headers(h->h.frameOptions(fo->fo.disable()))
+                .headers(h->h.frameOptions(fo->fo.disable())) // Spring il bloque les frames car il considère que c'est une faille de sécurité (attaques) donc on les désactive pour pouvoir accéder à la console H2
                 .csrf(csrf->csrf.ignoringRequestMatchers("/h2-console/**"))
                 .oauth2Login(al->
                         al.loginPage("/oauth2Login")

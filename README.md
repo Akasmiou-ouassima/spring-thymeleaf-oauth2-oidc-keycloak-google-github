@@ -282,3 +282,15 @@ spring.security.oauth2.client.provider.keycloak.user-name-attribute=preferred_us
 <p align="center">
   <img src="captures/img_53.png" width="500">
 </p>
+
+<p align="center">
+  <img src="captures/img_54.png" width="500">
+</p>
+
+<p align="center">
+  <img src="captures/img_55.png" width="500">
+</p>
+
+<p align="center">
+  <img src="captures/img_56.png" width="500">
+</p>
