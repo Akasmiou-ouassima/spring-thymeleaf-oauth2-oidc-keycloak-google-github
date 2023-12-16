@@ -294,3 +294,49 @@ spring.security.oauth2.client.provider.keycloak.user-name-attribute=preferred_us
 <p align="center">
   <img src="captures/img_56.png" >
 </p>
+
+## Utiliser cette commande pour créer un projet angular  avec les options --directory et --no-standalone
+
+**--no-standalone: Cette option est utilisée pour indiquer au CLI Angular de ne pas générer le projet en tant qu'application autonome.**
+
+```bash
+ng new customer-front-angular-app --directory ./ --no-standalone
+
+npm i bootstrap bootstrap-icons
+
+npm i keycloak-angular
+
+npm install keycloak-js
+
+ng g g guards/auth
+
+ng g s services/security
+```
+
+## Créer nouveau client pour le frontend angular
+<p align="center">
+  <img src="captures/img_57.png" >
+</p>
+
+<p align="center">
+  <img src="captures/img_58.png" >
+</p>
+
+<p align="center">
+  <img src="captures/img_59.png" >
+</p>
+
+**Frontend Channel : quand je redirige vers un ressource dont je n'ai pas le droit automatiqument va rediriger vers keycloak**
+**Backend Channel : créer un formulaire dans laquelle saisir username et mot de passe et quand vous cliquez sur login la requete va envoyer vers keycloak il va retourne le token et il va le stocker le token dans local storage**
+
+<p align="center">
+  <img src="captures/img_60.png" >
+</p>
+
+<p align="center">
+  <img src="captures/img_62.png" >
+</p>
+
+<p align="center">
+  <img src="captures/img_61.png" >
+</p>
