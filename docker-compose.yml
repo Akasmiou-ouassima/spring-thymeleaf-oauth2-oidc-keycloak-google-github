@@ -1,0 +1,31 @@
+services:
+  mysql-db-inventory:
+    image: mariadb:10.6
+    container_name: mysql-db-inventory
+    restart: always #restart the container if it goes down or use on-failure to restart if it fails
+    volumes:
+      - mysql_data:/var/lib/mysql
+    environment:
+      MYSQL_DATABASE: inventory-db
+      MYSQL_USER: root
+      MYSQL_PASSWORD:
+      MYSQL_ROOT_PASSWORD: admin
+    ports:
+      - 3306:3306 # host port is the port that will be exposed to the host machine and container port is the port that will be exposed to the container
+    expose:
+      - 3306 # this is to expose the port to other containers
+    healthcheck:
+      test: [ "CMD", "mysqladmin" ,"ping", "-h", "localhost" ]
+      timeout: 5s
+      retries: 10
+  phpmyadmin:
+    image: phpmyadmin
+    restart: always
+    ports:
+      - 9999:80 # 80 (internal) is the default port for phpmyadmin and 9999 is the port that will be exposed to the host machine (external)
+    environment:
+      PMA_HOST: mysql-db-inventory
+      PMA_PORT: 3306
+      PMA_ARBITRARY: 1 #this is to allow the user to enter any host name (localhost is the host name for the mysql container)
+volumes:
+  mysql_data:
