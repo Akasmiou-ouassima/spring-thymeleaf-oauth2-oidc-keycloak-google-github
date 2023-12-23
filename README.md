@@ -330,15 +330,100 @@ ng g s services/security
 
 **Frontend Channel : quand je redirige vers un ressource dont je n'ai pas le droit automatiqument va rediriger vers keycloak**
 **Backend Channel : créer un formulaire dans laquelle saisir username et mot de passe et quand vous cliquez sur login la requete va envoyer vers keycloak il va retourne le token et il va le stocker le token dans local storage**
-
+-------------------------------------------------
 <p align="center">
   <img src="captures/img_60.png" >
 </p>
-
+-------------------------------------------------
 <p align="center">
   <img src="captures/img_62.png" >
 </p>
-
+-------------------------------------------------
 <p align="center">
   <img src="captures/img_61.png" >
 </p>
+-------------------------------------------------
+<p align="center">
+  <img src="captures/img_63.png" >
+</p>
+-------------------------------------------------
+<p align="center">
+  <img src="captures/img_64.png" >
+</p>
+-------------------------------------------------
+<p align="center">
+  <img src="captures/img_65.png" >
+</p>
+-------------------------------------------------
+<p align="center">
+    <img src="captures/img_66.png" >
+</p>
+-------------------------------------------------
+<p align="center">
+    <img src="captures/img_67.png" >
+</p>
+-------------------------------------------------
+<p align="center">
+    <img src="captures/img_68.png" >
+</p>
+-------------------------------------------------
+<p align="center">
+    <img src="captures/img_69.png" >
+</p>
+-------------------------------------------------
+<p align="center">
+    <img src="captures/img_70.png" >
+</p>
+-------------------------------------------------
+<p align="center">
+    <img src="captures/img_71.png" >
+</p>
+-------------------------------------------------
+<p align="center">
+    <img src="captures/img_72.png" >
+</p>
+-------------------------------------------------
+<p align="center">
+    <img src="captures/img_73.png" >
+</p>
+-------------------------------------------------
+<p align="center">
+    <img src="captures/img_74.png" >
+</p>
+-------------------------------------------------
+<p align="center">
+    <img src="captures/img_75.png" >
+</p>
+-------------------------------------------------
+<p align="center">
+    <img src="captures/img_76.png" >
+</p>
+-------------------------------------------------
+<p align="center">
+    <img src="captures/img_77.png" >
+</p>
+-------------------------------------------------
+<p align="center">
+    <img src="captures/img_78.png" >
+</p>
+-------------------------------------------------
+<p align="center">
+    <img src="captures/img_79.png" >
+</p>
+-------------------------------------------------
+<p align="center">
+    <img src="captures/img_80.png" >
+</p>
+-------------------------------------------------
+<p align="center">
+    <img src="captures/img_81.png" >
+</p>
+-------------------------------------------------
+<p align="center">
+    <img src="captures/img_82.png" >
+</p>
+-------------------------------------------------
+<p align="center">
+    <img src="captures/img_83.png" >
+</p>
+
